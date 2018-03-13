@@ -27,11 +27,11 @@ variable "hyperkube_version" {
 }
 
 variable "prefix" {
-    default = ""
+    default = "api-"
 }
 
 variable "size_etcd" {
-    default = "512mb"
+    default = "1gb"
 }
 
 variable "size_master" {
@@ -39,7 +39,7 @@ variable "size_master" {
 }
 
 variable "size_worker" {
-    default = "512mb"
+    default = "2gb"
 }
 
 ###############################################################################

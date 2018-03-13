@@ -1,5 +1,5 @@
 # This directory is meant for TLS/SSL assets, DO_TOKEN, etc
-secrets/
+# secrets/
 
 # This one is consequence of the TLS/SSL assets generation
 .srl
